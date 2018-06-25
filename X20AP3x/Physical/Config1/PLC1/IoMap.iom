@@ -1,0 +1,29 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Datei: IoMap.iom
+ * Autor: hilchenbachc
+ * Erstellt: 10. Januar 2014
+ ********************************************************************
+ * IO-Rangierungsdatei
+ ********************************************************************)
+VAR_CONFIG
+	::CondMon:iomapping.in.InputSequence AT %IB."X20AP3131".InputSequence;
+	::CondMon:iomapping.in.RxByte1 AT %IB."X20AP3131".RxByte1;
+	::CondMon:iomapping.in.RxByte2 AT %IB."X20AP3131".RxByte2;
+	::CondMon:iomapping.in.RxByte3 AT %IB."X20AP3131".RxByte3;
+	::CondMon:iomapping.in.RxByte4 AT %IB."X20AP3131".RxByte4;
+	::CondMon:iomapping.in.RxByte5 AT %IB."X20AP3131".RxByte5;
+	::CondMon:iomapping.in.RxByte6 AT %IB."X20AP3131".RxByte6;
+	::CondMon:iomapping.in.RxByte7 AT %IB."X20AP3131".RxByte7;
+	::CondMon:iomapping.out.OutputSequence AT %QB."X20AP3131".OutputSequence;
+	::CondMon:iomapping.out.EnabEnergy AT %QX."X20AP3131".EnabEnergy;
+	::CondMon:iomapping.in.RBTrigDFT AT %IX."X20AP3131".RBTrigDFT;
+	::CondMon:iomapping.out.TrigDFT AT %QX."X20AP3131".TrigDFT;
+	::condMonData.MainsStatus.WarningPhaseA AT %IX."X20AP3131".WarningPhaseA;
+	::condMonData.MainsStatus.WarningPhaseB AT %IX."X20AP3131".WarningPhaseB;
+	::condMonData.MainsStatus.WarningPhaseC AT %IX."X20AP3131".WarningPhaseC;
+	::condMonData.MainsStatus.LossPhaseA AT %IX."X20AP3131".LossPhaseA;
+	::condMonData.MainsStatus.LossPhaseB AT %IX."X20AP3131".LossPhaseB;
+	::condMonData.MainsStatus.LossPhaseC AT %IX."X20AP3131".LossPhaseC;
+END_VAR

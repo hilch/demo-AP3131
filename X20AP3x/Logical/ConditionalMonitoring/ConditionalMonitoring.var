@@ -1,0 +1,3 @@
+VAR
+	condMonData : CondMonData; (*Condition Monitoring*)
+END_VAR

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.6.57 SP?>
+<Library Description="This library manages the communication with the flat stream mode" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>AsFltGen.var</File>
+    <File>AsFltGen.typ</File>
+    <File>AsFltGen.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

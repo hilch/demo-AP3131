@@ -1,0 +1,30 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsFltGen
+ * File: AsFltGen.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsFltGen
+ ********************************************************************)
+
+(* error area 33800 - 33809 for AsFltGen reserved *)  
+                                                                    
+VAR CONSTANT
+	fltERR_SYNC	  	  : UINT := 33800;	(*syncronisation lost*)
+	fltERR_BUF_WRONG	  : UINT := 33801;	(*invalid buffer change during collecting the frame data*)
+	fltERR_BUF_INVALID	  : UINT := 33802;	(*buffer is not valid: NULL-Pointer AND buffer length is not "0"*)	
+	fltERR_BUF_SMALL	  : UINT := 33803;	(*buffer is to small for this massage/frame*)
+	fltERR_FIFO_OVERRUN 	  : UINT := 33805;      (*internal fifo overrun*)
+	fltERR_MTU_INVALID 	  : UINT := 33806;      (*mtu is not valid: NULL-Pointer OR length is "0"*)
+	fltERR_SEQUIN_INVALID 	  : UINT := 33807;      (*pSequ is not valid: NULL-Pointer*)
+	fltERR_CFG_INVALID	  : UINT := 33808;	(*invalid value at parameter "cfg"*)	
+	fltERR_FRAME_FINISHED	  : UINT := 33809;	(*the frame is finished*)
+
+	fltMODE_STREAM		  : UDINT := 65536;	(*stream mode flag*)
+	fltMODE_FRAME		  : UDINT := 131072;	(*frame mode flag*)
+	fltMODE_PACKET		  : UDINT := 262144;	(*packet mode flag*)
+	
+	fltMODE_ASYNCHRON	  : UDINT := 256;	(*increased sequence counter will be write one FUB cycle after the sending bytes*)
+	fltMODE_SYNCHRON	  : UDINT := 128;	(*increased sequence counter and sending bytes will be write in the same FUB cycle*)
+END_VAR

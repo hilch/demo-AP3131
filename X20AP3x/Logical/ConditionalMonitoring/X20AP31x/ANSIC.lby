@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.27 SP09?>
+<Library xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exportierte Datentypen">X20AP31x.typ</File>
+    <File Description="Exportierte Konstanten">X20AP31x.var</File>
+    <File Description="Exportierte Funktionen und Funktionsblöcke">X20AP31x.fun</File>
+    <File Description="Read X20AP3X1 - Register">X20AP31X_Register.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsFltGen" />
+    <Dependency ObjectName="AsBrStr" />
+  </Dependencies>
+</Library>

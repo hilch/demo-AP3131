@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.6.57 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Paket Datentypen">ConditionalMonitoring.typ</Object>
+    <Object Type="File" Description="Paket Variablen">ConditionalMonitoring.var</Object>
+    <Object Type="Library" Language="ANSIC" Description="X20AP31x - Module- Handling via FlatStream">X20AP31x</Object>
+    <Object Type="Program" Language="IEC" Description="Ein neues Programm">CondMon</Object>
+    <Object Type="File">X20AP3131_IO_Konfiguration.txt</Object>
+    <Object Type="File">X20AP3131_IO_Mapping.PNG</Object>
+  </Objects>
+</Package>

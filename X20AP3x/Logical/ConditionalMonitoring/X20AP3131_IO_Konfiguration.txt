@@ -1,0 +1,58 @@
+IF6.ST1			X20AP3131
+ Funktionsmodell	Standard		Arbeitsweise des Moduls
+ Allgemein			
+  Modulueberwachung	Aus		Service Mode ausloesen, wenn Modul nicht vorhanden ist
+ Allgemeine Einstellungen			
+  Netzanschaltung	Einzel- / Drei-Phasen Messung		Auswahl Anschaltung durch Anzahl der gemessenen Phasen
+  Netzwerkfrequenz	50		Auswahl Frequenz [Hz]
+  Energie-Einheit	[1Ws]		Auswahl Energie-Einheit
+  Stromschwelle LED ein	100		Legt die Stromschwelle fest [mA]
+  Format der Status- und Controlinformation	Einzelvariablen		Auswahl Darstellungsart
+ Physikalische Netzwerkeinstellungen			
+  Phase A	Ein		
+  Phase A Stromuebersetzungsverhaeltnis	100		Legt das Stromuebersetzungsverhaeltnis fest [0,1]
+  Phase B	Ein		
+  Phase B Stromuebersetzungsverhaeltnis	100		Legt das Stromuebersetzungsverhaeltnis fest [0,1]
+  Phase C	Ein		
+  Phase C Stromuebersetzungsverhaeltnis	100		Legt das Stromuebersetzungsverhaeltnis fest [0,1]
+  Nullleiter N	Berechnung		Auswahl gemessener oder berechneter Strom
+  Nullleiter N Stromueberwachung	Aus		De-/aktiviere Statusueberwachung und Anzeige
+  Nullleiter N Strom-Alarmschwelle	50		Legt die Alarmschwelle fest [mA]
+ Einstellungen Warnung- und Ausfallschwellwerte			
+  Spannungsschwellwerte	Ein		De-/Aktiviere Konfiguration und Statusinformation
+  Schwelle Spannungswarnung	22000		Effektivwert [0,01 V]
+  Schwelle Spannungsausfall	2500		Effektivwert [0,01 V]
+  Schwelle Oberwellenspannungswarnung	1000		Wert [0,01 %]
+  Schwelle Oberwellenstromwarnung	1000		Wert [0,01 %]
+  Format der Statusinformation	Einzelvariablen		Auswahl Darstellungsart
+ Einstellungen Nulldurchgangssignale			
+  Nulldurchgangssignale	Aus		De-/Aktiviere Signale
+ Anzeigekonfiguration Analogwerte			
+  Applikationsauswahl	Einfache Leistungs-/Energiedaten		
+  Spannung Phase A RMS	Aus		
+  Spannung Phase B RMS	Aus		
+  Spannung Phase C RMS	Aus		
+  Strom Phase A RMS	Aus		
+  Strom Phase B RMS	Aus		
+  Strom Phase C RMS	Aus		
+  Strom Nullleiter N RMS	Aus		
+  Frequenz gemessen	Aus		
+  Leistungsfaktor gesamt	Aus		
+  Wirkleistung gesamt	Aus		
+  Blindleistung gesamt	Aus		
+  Scheinleistung gesamt	Aus		
+  Wirkenergie gesamt	Aus		
+  Blindenergie gesamt	Aus		
+  Scheinenergie gesamt - arithmetische Summe	Aus		
+  Scheinenergie gesamt - komplexe Summe	Aus		
+  System Status Selektion	Einzelvariablen		
+ Flat Stream Konfiguration			
+  User Interface Flat Stream akitivieren	Ein		
+  OutputMTU	off		Sendeblockgroeﬂe [Byte]
+  InputMTU	7 Byte		Empfangsblockgroeﬂe [Byte]
+  BlockForward	1		Anzahl der abgesendeten Bloecke ohne Bestaetigung
+  BlockForward Verzoegerungszeit	0		Zusaetzliche Verzoegerungszeit zwischen zwei unbestaetigt gesendeten Bloecken[usec]
+  Mehrfachsegmente	Aus		Mehrfachsegmente innerhalb MTU moeglich
+  Segmentgroeﬂe	Aus		Segmentgroeﬂe darf MTU ueberschreiten
+ Simulation			
+  Simulationsgeraet			Zugeordnetes Simulationsgeraet

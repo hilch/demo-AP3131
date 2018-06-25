@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Programm: energy
+ * Datei: energy.var
+ * Autor: hilchenbachc
+ * Erstellt: 16. Januar 2014
+ ********************************************************************
+ * Lokale Variablen des Programms energy
+ ********************************************************************)
+VAR
+	iomapping : X20AP31X_MAPPING; (*IO- Mapping für X20AP3x - Module*)
+	apData : X20AP31X; (*Ausgabedaten für X20AP3x- Module*)
+	fubAP31x : X20AP31X_Register; (*Funktionsbaustein zum Lesen der X20AP3X- Module*)
+	converterRatio : LREAL; (*Übersetzungsverhältnis des Stromwandlers*)
+	currentCorrectionFactor : LREAL;
+	unitsPerkWh : LREAL;
+END_VAR
